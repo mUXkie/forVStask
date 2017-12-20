@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var cookieSession = require('cookie-session');
 
 var expressMongoDb = require('express-mongo-db');
 /**
@@ -76,7 +77,7 @@ app.use(methodOverride(function (req, res) {
  */
 var flash = require('express-flash');
 var cookieParser = require('cookie-parser');
-var session = require('express-session');
+var session = require('cookie-session');
 
 app.use(cookieParser('keyboard cat'));
 app.use(session({
