@@ -93,8 +93,6 @@ app.use(express.static(__dirname, + '/public'));
 app.use('/', index);
 app.use('/users', users);
 
-var port_number = server.listen(process.env.PORT || 3000);
-app.listen(port_number);
-
+app.listen(process.env.PORT || 3000);
 
 module.exports = app;
