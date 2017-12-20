@@ -10,7 +10,7 @@
  */
 var config = {
     database: {
-        url: 'mongodb://localhost:27017/test'
+        url: 'process.env.MONGOLAB_URI'
     },
     server: {
         host: '127.0.0.1',
