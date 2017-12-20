@@ -2,15 +2,24 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var cookieSession = require('cookie-session');
-
+var mongoose = require('mongoose');
 var expressMongoDb = require('express-mongo-db');
 /**
  * Store database credentials in a separate config.js file
  * Load the file/module and its values
  * For MongoDB, we basically store the connection URL in config file
+
+ * var config = require('./config');
+ * app.use(expressMongoDb(config.database.url));
+
  */
-var config = require('./config');
-app.use(expressMongoDb(config.database.url));
+var mongoDB = process.env.MONGODB_URI || 'mongodb://heroku_5g2870xr:vtfb6o5t2ro017pd8q108eqn6h@ds161016.mlab.com:61016/heroku_5g2870xr';
+mongoose.connect(mongoDB, {
+    useMongoClient: true
+});
+mongoose.Promise = global.Promise;
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 /**
  * setting up the templating view engine
