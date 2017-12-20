@@ -1,0 +1,325 @@
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  font-family: 'Sofia Pro', sans-serif;
+  color: #f3f6f9;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Nitti, sans-serif;
+  color: #3b8bb9;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar {
+  height: 150px;
+  border-bottom: 1px solid #dde4ec;
+  background-color: #fff;
+}
+
+.title-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40%;
+  padding-left: 7%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #dde4ec;
+}
+
+.vs-icon {
+  margin-right: 15px;
+}
+
+.heading {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Sofia Pro', sans-serif;
+  color: #3b8bb9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.heading.vs-h3 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #cecece;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #f3f6f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heading-2 {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 7%;
+  color: #3b8bb9;
+  font-size: 28px;
+  letter-spacing: 0.4px;
+}
+
+.add-user {
+  width: 140px;
+  margin-top: 25px;
+  margin-right: 7%;
+  float: right;
+  border-radius: 4px;
+  background-color: #f069af;
+  font-family: 'Sofia Pro', sans-serif;
+  text-align: center;
+}
+
+.table-header {
+  height: 40px;
+  padding-right: 7%;
+  padding-left: 7%;
+  background-color: #f7f9fb;
+}
+
+.table-titles {
+  height: 100%;
+}
+
+.first-name {
+  padding-left: 0px;
+}
+
+.heading-3 {
+  font-family: Nitti, sans-serif;
+}
+
+.title-div {
+  padding-left: 0px;
+}
+
+.table-row {
+  height: 90px;
+  padding-right: 7%;
+  padding-left: 7%;
+  border-bottom: 1px solid #cdd5dc;
+}
+
+.row-entries {
+  height: 100%;
+}
+
+.table-h3 {
+  margin-top: 0px;
+  font-family: 'Sofia Pro', sans-serif;
+  color: #617281;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.edit-btn {
+  margin-right: 30%;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 2px solid #cfdae3;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: 'Sofia Pro', sans-serif;
+  color: #cfdae3;
+}
+
+.delete-btn {
+  padding-right: 26px;
+  padding-left: 25px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 2px solid #f57777;
+  border-radius: 4px;
+  background-color: #f57777;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-right: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.row-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+input {
+    line-height: normal;
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Sofia Pro', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    flex: 0 0 auto;
+    border: 2px solid #f57777;
+    border-radius: 4px;
+    background-color: #f57777;
+    font-family: 'Sofia Pro', sans-serif;
+    padding: 9px 26px;
+}
+
+.form-container {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.entrant {
+    display: inline-block;
+    width: 49%;
+    height: 45px;
+    border: 2px solid #cfdae3;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: 'Sofia Pro', sans-serif;
+    color: #cfdae3;
+}
+
+.entrant.surname {
+    width: 45%;
+    margin-left: 23px;
+}
+
+.entrant.enter-city {
+    width: 35%;
+}
+
+.entrant.enter-pw {
+    width: 63%;
+}
+
+.first-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.second-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.submit {
+    width: 100px;
+    margin-top: 1%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(0deg, #3b8bb9, #6dbfdd);
+    background-image: linear-gradient(90deg, #3b8bb9, #6dbfdd);
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+.form {
+    display: block;
+    max-width: 600px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+.form-block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/sofia-pro-regular.eot') format('embedded-opentype'), url('../fonts/SofiaProRegular.woff') format('woff'), url('../fonts/SofiaProRegular.ttf') format('truetype'), url('../fonts/Sofia-Pro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/Sofia-Pro-Bold.eot') format('embedded-opentype'), url('../fonts/SofiaProBold.woff') format('woff'), url('../fonts/SofiaPro-Bold.ttf') format('truetype'), url('../fonts/sofia-pro-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/sofia_pro_semi_bold.eot') format('embedded-opentype'), url('../fonts/SofiaProSemiBold.woff') format('woff'), url('../fonts/SofiaPro-SemiBold.ttf') format('truetype'), url('../fonts/Sofia-Pro-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nitti';
+  src: url('../fonts/nitti_medium.eot') format('embedded-opentype'), url('../fonts/nitti_medium.woff') format('woff'), url('../fonts/nitti_medium.ttf') format('truetype'), url('../fonts/nitti_medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
