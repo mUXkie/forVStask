@@ -93,8 +93,8 @@ app.use(express.static(__dirname, + '/public'));
 app.use('/', index);
 app.use('/users', users);
 
-app.listen(3000, function(){
-    console.log('Server running at port 3000: http://127.0.0.1:3000');
-});
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
+
 
 module.exports = app;
